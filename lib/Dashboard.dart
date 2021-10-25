@@ -150,13 +150,13 @@ class Dashboard extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 50,
+              height: 10,
             ),
             Stack(
               children: [
                 Container(
                   width: 360,
-                  height: 300,
+                  height: 250,
                   color: Colors.white60,
                 ),
               ],
