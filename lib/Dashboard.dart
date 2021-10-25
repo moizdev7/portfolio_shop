@@ -149,11 +149,9 @@ class Dashboard extends StatelessWidget {
                 ],
               ),
             ),
-            Container(
-                child: TextButton(
-              child: Text("Pressed!!"),
-              onPressed: () {},
-            )),
+            SizedBox(
+              height: 50,
+            ),
             Stack(
               children: [
                 Container(
