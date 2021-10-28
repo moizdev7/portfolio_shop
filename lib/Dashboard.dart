@@ -152,15 +152,24 @@ class Dashboard extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            Stack(
-              children: [
-                Container(
-                  width: 360,
-                  height: 250,
-                  color: Colors.white60,
-                ),
-              ],
-            )
+            Padding(
+              padding: EdgeInsets.only(top: 0),
+              child: Container(
+                height: 10,
+                width: 10,
+                color: Colors.black,
+              ),
+            ),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(20),
+                      topRight: Radius.circular(20),
+                    ),
+                    color: Colors.white60),
+              ),
+            ),
           ],
         ),
       ),
